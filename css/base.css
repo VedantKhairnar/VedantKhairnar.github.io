@@ -162,7 +162,7 @@ a {
     padding: 0 20px;
 }
 
-[class*="col-"]+[class*="col-"].end {
+[class*="col-"] + [class*="col-"].end {
     float: right;
 }
 
@@ -385,7 +385,7 @@ a {
         padding: 0;
     }
 
-    [class*="col-"]+[class*="col-"].end {
+    [class*="col-"] + [class*="col-"].end {
         float: none;
     }
 }

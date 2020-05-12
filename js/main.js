@@ -22,13 +22,13 @@
         var windowHalfY = window.innerHeight / 2;
         var mouseX = -windowHalfX,
             mouseY = -windowHalfY;
-
+        
         function init() {
             camera = new THREE.PerspectiveCamera(65, window.innerWidth / window.innerHeight, 1, 1E5);
             camera.position.z = 1000;
-
+            
             scene = new THREE.Scene();
-
+            
             particles = new Array();
             var PI2 = Math.PI * 2;
             var material = new THREE.SpriteCanvasMaterial({
@@ -51,7 +51,7 @@
             renderer = new THREE.CanvasRenderer();
             renderer.setPixelRatio(window.devicePixelRatio);
             renderer.setSize(window.innerWidth, window.innerHeight);
-
+            
             $('#wave').prepend(renderer.domElement);
             $(document).on('mousemove', function (event) {
                 mouseX = event.clientX * 0.5 - windowHalfX;
@@ -66,13 +66,13 @@
             });
             render();
         }
-
+        
         function render() {
             camera.position.x += (mouseX - camera.position.x) * .05;
             camera.position.y += (-mouseY - camera.position.y) * .03;
             camera.position.z = 750;
             camera.lookAt(scene.position);
-
+            
             var i = 0;
             for (var ix = 0; ix < AMOUNTX; ix++) {
                 for (var iy = 0; iy < AMOUNTY; iy++) {
@@ -85,6 +85,7 @@
             count += 0.05;
             requestAnimationFrame(render);
         }
+        
         return init();
     }
     var SmoothScroll = function () {
@@ -122,7 +123,7 @@
         ga('create', 'UA-50190232-1', 'akshatmittal.com');
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
-
+        
         if (window.location.protocol != "https:") window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
         if (self != top) top.location = self.location;
     };
