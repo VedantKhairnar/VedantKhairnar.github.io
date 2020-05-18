@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07186b3f-e753-4459-ac62-f1de9de814b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/logos/kali.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/macbuntu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logoCollage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/firebase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/heroku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/logoCollage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/tensorflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logoCollage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -22,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="189" column="68" lean-forward="true" selection-start-line="189" selection-start-column="68" selection-end-line="189" selection-end-column="68" />
+            <state relative-caret-position="240">
+              <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
@@ -52,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="1268" column="1" lean-forward="true" selection-start-line="1268" selection-start-column="1" selection-end-line="1268" selection-end-column="1" />
+            <state relative-caret-position="276">
+              <caret line="1277" column="16" lean-forward="true" selection-start-line="1277" selection-start-column="16" selection-end-line="1277" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -81,14 +86,14 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="632" />
-    <option name="y" value="87" />
+    <option name="x" value="631" />
+    <option name="y" value="86" />
     <option name="width" value="980" />
     <option name="height" value="550" />
   </component>
@@ -139,6 +144,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images\logos" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images\logos" />
       <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images\portfolio" />
@@ -168,12 +176,13 @@
       <updated>1589273517637</updated>
       <workItem from="1589273520032" duration="4838000" />
       <workItem from="1589720456197" duration="356000" />
-      <workItem from="1589772267497" duration="14777000" />
+      <workItem from="1589772267497" duration="16230000" />
+      <workItem from="1589824148344" duration="3115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19971000" />
+    <option name="totallyTimeSpent" value="24539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -235,20 +244,21 @@
     <entry file="file://$PROJECT_DIR$/images/logos/flask.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/logos/PngItem_1595977.png">
+    <entry file="file://$PROJECT_DIR$/images/logos/PngItem_1595977.png" />
+    <entry file="file://$PROJECT_DIR$/logoCollage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="1268" column="1" lean-forward="true" selection-start-line="1268" selection-start-column="1" selection-end-line="1268" selection-end-column="1" />
+        <state relative-caret-position="276">
+          <caret line="1277" column="16" lean-forward="true" selection-start-line="1277" selection-start-column="16" selection-end-line="1277" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="189" column="68" lean-forward="true" selection-start-line="189" selection-start-column="68" selection-end-line="189" selection-end-column="68" />
+        <state relative-caret-position="240">
+          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
