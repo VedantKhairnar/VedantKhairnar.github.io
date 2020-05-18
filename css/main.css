@@ -730,6 +730,11 @@ html.loaded .home-content__main {
     transition: width 0.25s ease;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
 .grey {
     color: #555555;
 }
@@ -1224,4 +1229,53 @@ html.loaded .home-content__main {
     .go-top::after {
         display: none;
     }
+}
+
+
+
+.img-container {
+    display: block;
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 300px;
+}
+
+
+.img-overlay {
+    text-align: center;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    transition: .5s ease;
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 75%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.conOverlay {
+    background: rgba(156, 242, 253, 0.733);
+}
+
+
+.img-container:hover .img-overlay {
+    opacity: 1;
+}
+
+.skill-img {
+    display: compact;
+    width: 30%;
+    margin: auto;
+    height: 30%;
 }
