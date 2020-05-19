@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07186b3f-e753-4459-ac62-f1de9de814b5" name="Default Changelist" comment="" />
+    <list default="true" id="07186b3f-e753-4459-ac62-f1de9de814b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/aftereffects.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/aftereffects.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/android.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/android.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/azure.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/azure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/azureBase.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/azureBase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/bootstrap4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/bootstrap4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/c++.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/c++.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/c.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/firebase.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/firebase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/flask.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/flask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/heroku.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/heroku.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/htmlcssjs.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/htmlcssjs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/js.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/js.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/kali.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/kali.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logoCollage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/logoCollage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/macbuntu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/macbuntu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/photoshop.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/photoshop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/py.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/py.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/react.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/react.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/react2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/react2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/sketchup.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/sketchup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/tensorflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/tensorflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/tesseract.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/tesseract.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/unity.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/unity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/vision.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/vision.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/vuforia.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/vuforia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/vuforiaLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/vuforiaLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,15 +51,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="96" column="55" lean-forward="true" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
+            <state relative-caret-position="192">
+              <caret line="281" column="100" lean-forward="true" selection-start-line="281" selection-start-column="100" selection-end-line="281" selection-end-column="100" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#p#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#p#1;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,6 +75,7 @@
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#section#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -46,13 +85,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="1277" column="16" lean-forward="true" selection-start-line="1277" selection-start-column="16" selection-end-line="1277" selection-end-column="16" />
+            <state relative-caret-position="1870">
+              <caret line="1523" column="17" lean-forward="true" selection-start-line="1523" selection-start-column="17" selection-end-line="1523" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -64,6 +110,10 @@
       <find>img-overla</find>
       <find>img-over</find>
       <find>fade</find>
+      <find>screen</find>
+      <find>blog-slider__item</find>
+      <find>subhea</find>
+      <find>blog-slider__img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,16 +123,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="631" />
-    <option name="y" value="86" />
+    <option name="x" value="630" />
+    <option name="y" value="85" />
     <option name="width" value="980" />
     <option name="height" value="550" />
   </component>
@@ -116,7 +168,12 @@
               <item name="VedantKhairnar.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VedantKhairnar.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="logos" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VedantKhairnar.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VedantKhairnar.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,17 +185,19 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/logos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images" />
+      <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images\portfolio" />
+      <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\css" />
       <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images\logos" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images\logos" />
-      <recent name="K:\HackerData\personalwbsite\VedantKhairnar.github.io\images\portfolio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,12 +225,13 @@
       <workItem from="1589273520032" duration="4838000" />
       <workItem from="1589720456197" duration="356000" />
       <workItem from="1589772267497" duration="16230000" />
-      <workItem from="1589824148344" duration="3377000" />
+      <workItem from="1589824148344" duration="3895000" />
+      <workItem from="1589867719565" duration="10390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24801000" />
+    <option name="totallyTimeSpent" value="35709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -181,7 +241,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32871014" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -200,13 +260,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -230,31 +283,58 @@
     <entry file="file://$PROJECT_DIR$/images/sharing.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/logos/flask.png">
+    <entry file="file://$PROJECT_DIR$/images/skill-logos/flask.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/logos/PngItem_1595977.png" />
     <entry file="file://$PROJECT_DIR$/logoCollage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="1277" column="16" lean-forward="true" selection-start-line="1277" selection-start-column="16" selection-end-line="1277" selection-end-column="16" />
+        <state relative-caret-position="48">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="191" column="21" lean-forward="true" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="1523" column="17" lean-forward="true" selection-start-line="1523" selection-start-column="17" selection-end-line="1523" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/blogs/TwitterSentimentAnalyser.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="96" column="55" lean-forward="true" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
+        <state relative-caret-position="192">
+          <caret line="281" column="100" lean-forward="true" selection-start-line="281" selection-start-column="100" selection-end-line="281" selection-end-column="100" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#1;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -267,6 +347,7 @@
             <element signature="n#style#0;n#div#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>

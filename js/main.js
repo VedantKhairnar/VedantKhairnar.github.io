@@ -1,4 +1,7 @@
 (function ($) {
+    
+   
+    
     var Preloader = function () {
         $("html").addClass('preload');
         $(window).on('load', function () {
@@ -108,6 +111,7 @@
             disable: 'mobile'
         });
     };
+  
     var PageTrack = function () {
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -135,3 +139,4 @@
         AOSStart();
     })();
 })(jQuery);
+
