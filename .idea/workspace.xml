@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07186b3f-e753-4459-ac62-f1de9de814b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/aftereffects.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/aftereffects.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/android.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/android.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/azure.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/azure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/azureBase.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/azureBase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/bootstrap4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/bootstrap4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/c++.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/c++.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/c.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/css.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/firebase.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/firebase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/flask.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/flask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/heroku.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/heroku.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/html.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/htmlcssjs.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/htmlcssjs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/js.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/js.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/kali.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/kali.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/logoCollage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/logoCollage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/macbuntu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/macbuntu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/photoshop.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/photoshop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/py.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/py.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/react.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/react.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/react2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/react2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/sketchup.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/sketchup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/tensorflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/tensorflow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/tesseract.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/tesseract.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/unity.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/unity.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/vision.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/vision.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/vuforia.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/vuforia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/vuforiaLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skill-logos/vuforiaLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="07186b3f-e753-4459-ac62-f1de9de814b5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="281" column="100" lean-forward="true" selection-start-line="281" selection-start-column="100" selection-end-line="281" selection-end-column="100" />
+              <caret line="281" selection-start-line="281" selection-end-line="281" selection-end-column="100" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
@@ -80,6 +45,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images/portfolio/trafficControlSystem.PNG">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -168,7 +138,7 @@
               <item name="VedantKhairnar.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="VedantKhairnar.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VedantKhairnar.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -226,16 +196,15 @@
       <workItem from="1589720456197" duration="356000" />
       <workItem from="1589772267497" duration="16230000" />
       <workItem from="1589824148344" duration="3895000" />
-      <workItem from="1589867719565" duration="10390000" />
+      <workItem from="1589867719565" duration="10708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35709000" />
+    <option name="totallyTimeSpent" value="36027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16116248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -324,7 +293,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="281" column="100" lean-forward="true" selection-start-line="281" selection-start-column="100" selection-end-line="281" selection-end-column="100" />
+          <caret line="281" selection-start-line="281" selection-end-line="281" selection-end-column="100" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
@@ -352,6 +321,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/portfolio/trafficControlSystem.PNG">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
