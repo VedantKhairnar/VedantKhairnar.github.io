@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07186b3f-e753-4459-ac62-f1de9de814b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/portfolio/wingardiumLeviosaFinal.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfolio/wingardiumLeviosaFinal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="407" column="20" lean-forward="true" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
+            <state relative-caret-position="468">
+              <caret line="411" column="70" selection-start-line="411" selection-start-column="70" selection-end-line="411" selection-end-column="70" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
@@ -51,7 +51,6 @@
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#a#0;n#li#7;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#8;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#a#0;n#li#8;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -205,12 +204,12 @@
       <workItem from="1589867719565" duration="16315000" />
       <workItem from="1589907752224" duration="3151000" />
       <workItem from="1589913388057" duration="1482000" />
-      <workItem from="1589951936521" duration="5204000" />
+      <workItem from="1589951936521" duration="5586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51471000" />
+    <option name="totallyTimeSpent" value="51853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -317,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="407" column="20" lean-forward="true" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
+        <state relative-caret-position="468">
+          <caret line="411" column="70" selection-start-line="411" selection-start-column="70" selection-end-line="411" selection-end-column="70" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
@@ -350,7 +349,6 @@
             <element signature="n#style#0;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#a#0;n#li#7;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#8;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#a#0;n#li#8;n#ul#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
