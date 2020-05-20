@@ -8,5 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="three" level="application" />
+    <orderEntry type="library" name="CanvasRenderer" level="application" />
+    <orderEntry type="library" name="Projector" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
+    <orderEntry type="library" name="aos" level="application" />
   </component>
 </module>
