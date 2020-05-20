@@ -879,7 +879,9 @@ html.loaded .home-content__main {
 }
 
 .page-projects .project-item a .project-visual {
-    position: absolute;
+    position: center;
+    height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
