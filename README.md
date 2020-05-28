@@ -4,7 +4,6 @@
 ![Forks](https://img.shields.io/github/forks/VedantKhairnar/VedantKhairnar.github.io.svg?style=social)
 ![GitHub contributors](https://img.shields.io/github/contributors/VedantKhairnar/VedantKhairnar.github.io.svg)
 ![Language](https://img.shields.io/github/languages/top/VedantKhairnar/VedantKhairnar.github.io.svg)
-[![GitHub](https://img.shields.io/github/license/VedantKhairnar/VedantKhairnar.github.io.svg)](https://choosealicense.com/licenses/mit)
 [![Say Thanks!](https://img.shields.io/badge/Say-Thanks!-yellow.svg)](https://vedantkhairnar.ml)
 [![HitCount](http://hits.dwyl.io/VedantKhairnar/VedantKhairnar.github.io.svg)](http://hits.dwyl.io/VedantKhairnar/VedantKhairnar.github.io)
 ![Issues](https://img.shields.io/github/issues/VedantKhairnar/VedantKhairnar.github.io)
