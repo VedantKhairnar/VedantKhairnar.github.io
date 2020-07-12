@@ -735,6 +735,14 @@ html.loaded .home-content__main {
     width: 50%;
 }
 
+.columnDesk {
+    float: left;
+    width: 50%;
+}
+.columnMob{
+    display:none;
+}
+
 .grey {
     color: #555555;
 }
@@ -756,6 +764,21 @@ html.loaded .home-content__main {
 @media only screen and (max-width: 400px) {
     .s-services {
         padding-top: 9.6rem;
+    }
+    .column{
+        display: none;
+    }
+    .columnMob{
+        display: block;
+    }
+    .columnAbout{
+        display: block;
+    }
+    .columnPoster{
+        display: block;
+    }
+    .columnJobs{
+        display: block;
     }
 }
 
