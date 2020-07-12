@@ -742,7 +742,9 @@ html.loaded .home-content__main {
 .columnMob{
     display:none;
 }
-
+.columnJobsMob{
+    display: none;
+}
 .grey {
     color: #555555;
 }
@@ -780,6 +782,10 @@ html.loaded .home-content__main {
     .columnJobs{
         display: block;
     }
+    .columnJobsMob{
+        display: block;
+    }
+
 }
 
 .s-works {
