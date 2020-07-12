@@ -734,7 +734,14 @@ html.loaded .home-content__main {
     float: left;
     width: 50%;
 }
-
+.columnAbout{
+    float: left;
+    width: 50%;
+}
+.columnPoster{
+    float: left;
+    width: 50%;
+}
 .columnDesk {
     float: left;
     width: 50%;
@@ -745,6 +752,13 @@ html.loaded .home-content__main {
 .columnJobsMob{
     display: none;
 }
+.columnPosterMob{
+    display: none;
+}
+.columnAboutMob{
+    display: none;
+}
+
 .grey {
     color: #555555;
 }
@@ -785,7 +799,18 @@ html.loaded .home-content__main {
     .columnJobsMob{
         display: block;
     }
-
+    .columnPosterMob{
+        display: block;
+    }
+    .columnAboutMob{
+        display: block;
+    }
+    .columnPoster{
+        display: none;
+    }
+    .columnAbout{
+        display: none;
+    }
 }
 
 .s-works {
