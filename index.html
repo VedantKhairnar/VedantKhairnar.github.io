@@ -57,7 +57,7 @@
 
     <script type='application/ld+json'>
         {
-            "@context": "http://www.schema.org",
+            "@context": "https://www.schema.org",
             "@type": "Person",
             "name": "Vedant Khairnar",
             "jobTitle": "DEVeloper Advocate, Community guy #AI #cloud",
@@ -71,10 +71,10 @@
             "birthDate": "1999-04-02",
             "sameAs": [
                 "https://www.facebook.com/profile.php?id=100009440914873",
-                "https://www.linkedin.com/in/vedant-khairnar-337446177/",
-                "https://twitter.com/VedantKhairnar3",
+                "https://www.linkedin.com/in/vedantkhairnar/",
+                "https://x.com/VedantKhairnar3",
                 "https://github.com/VedantKhairnar",
-                "https://www.instagram.com/kingsmanvk/",
+                "https://www.instagram.com/vedantkhairnar3/",
                 "https://steamcommunity.com/"
             ]
         }
@@ -89,7 +89,7 @@
     <!-- Latest compiled and minified CSS -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link
-        href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic'
+        href='https://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic'
         rel='stylesheet' type='text/css'>
     <script src="./js/modernizr.js"></script>
 
@@ -97,9 +97,19 @@
 
 <body id="top">
 
-    <div style="height: 0">
-        <embed src="./music1.mp3" loop="true" autostart="true">
-    </div>
+    <!-- Modern audio implementation with user controls -->
+    <audio id="background-music" loop preload="metadata" style="display: none;">
+        <source src="./music1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Optional: Add a music control button -->
+    <button id="music-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; 
+                                     background: rgba(0,0,0,0.7); color: white; border: none; 
+                                     padding: 10px; border-radius: 50%; cursor: pointer; display: none;"
+            title="Toggle Background Music">
+        🎵
+    </button>
 
     <section id="home" class="s-home target-section">
         <div class="shadow-overlay" id="wave"></div>
@@ -329,11 +339,35 @@
                             <!-- <h5>Work Experience</h5> -->
                             <h1 class="subhead">My Work Experience</h1>
                             <div class="row">
+                                <img style="float: left; margin: 10px" src="images/service-logos/bankai.png"
+                                    alt="logo" height="34">
+                                <div class="job">
+                                    <a href="https://bankaigroup.com/">Bankai Group</a>
+                                    <p>Developer Relations Manager<span class="grey"> Jan 2025 - Present</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img style="float: left; margin: 10px" src="images/service-logos/samagra.png"
+                                    alt="logo" height="34">
+                                <div class="job">
+                                    <a href="https://samagragovernance.in/">Samagra Governance</a>
+                                    <p>Senior Developer Advocate<span class="grey"> April 2024 - Oct 2024</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img style="float: left; margin: 10px" src="images/service-logos/juspay.png"
+                                    alt="logo" height="34">
+                                <div class="job">
+                                    <a href="https://juspay.io/">Juspay</a>
+                                    <p>Founding Developer Advocate<span class="grey"> June 2023 - April 2024</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <img style="float: left; margin: 10px" src="images/service-logos/cloudcasa.png"
                                     alt="logo" height="34">
                                 <div class="job">
                                     <a href="https://cloudcasa.io/">CloudCasa by Catalogic</a>
-                                    <p>Developer Advocate<span class="grey"> June 2022 - Present</span></p>
+                                    <p>Founding Developer Advocate<span class="grey"> June 2022 - May 2023</span></p>
                                 </div>
                             </div>
                             <div class="row">
@@ -508,11 +542,43 @@
                         <h1 class="subhead">My Work Experience</h1>
 
                         <div class="row">
+                            <img style="float: left; margin: 10px" src="images/service-logos/bankai.png" alt="logo"
+                                height="34">
+                            <div class="job">
+                                <a href="https://bankaigroup.com/">Bankai Group</a>
+                                <p>Developer Relations Manager<span class="grey"> Jan 2025 - Present</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img style="float: left; margin: 10px" src="images/service-logos/samagra.png"
+                                alt="logo" height="34">
+                            <div class="job">
+                                <a href="https://samagragovernance.in/">Samagra Governance</a>
+                                <p>Senior Developer Advocate<span class="grey"> April 2024 - Oct 2024</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img style="float: left; margin: 10px" src="images/service-logos/juspay.png"
+                                alt="logo" height="34">
+                            <div class="job">
+                                <a href="https://juspay.io/">Juspay</a>
+                                <p>Founding Developer Advocate<span class="grey"> June 2023 - April 2024</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
                             <img style="float: left; margin: 10px" src="images/service-logos/cloudcasa.png"
                                 alt="logo" height="34">
                             <div class="job">
                                 <a href="https://cloudcasa.io/">CloudCasa by Catalogic</a>
-                                <p>Developer Advocate<span class="grey"> June 2022 - Present</span></p>
+                                <p>Founding Developer Advocate<span class="grey"> June 2022 - May 2023</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img style="float: left; margin: 10px" src="images/service-logos/persistent.png"
+                                alt="logo" height="34">
+                            <div class="job">
+                                <a href="https://www.persistent.com/">Persistent Systems Ltd.</a>
+                                <p>Software Engineer<span class="grey"> May 2021 - June 2022</span></p>
                             </div>
                         </div>
                         <div class="row">
@@ -520,7 +586,7 @@
                                 height="34">
                             <div class="job">
                                 <a href="https://www.megahoot.com/">Megahoot LLC</a>
-                                <p>AI Lead<span class="grey"> Jan 2021 - Jan 2022</span></p>
+                                <p>Artificial Intelligence Lead<span class="grey"> Jan 2021 - May 2021</span></p>
                             </div>
                         </div>
                         <div class="row">
@@ -1268,6 +1334,44 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
     <script src="./js/script.js"></script>
+    
+    <!-- Modern audio control script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('background-music');
+            const toggleButton = document.getElementById('music-toggle');
+            let isPlaying = false;
+            
+            // Show the toggle button
+            toggleButton.style.display = 'block';
+            
+            // Toggle music function
+            function toggleMusic() {
+                if (isPlaying) {
+                    audio.pause();
+                    toggleButton.textContent = '🎵';
+                    toggleButton.title = 'Play Background Music';
+                    isPlaying = false;
+                } else {
+                    // Modern browsers require user interaction to play audio
+                    audio.play().then(() => {
+                        toggleButton.textContent = '🔇';
+                        toggleButton.title = 'Pause Background Music';
+                        isPlaying = true;
+                    }).catch(e => {
+                        console.log('Audio playback failed:', e);
+                    });
+                }
+            }
+            
+            // Add click event to toggle button
+            toggleButton.addEventListener('click', toggleMusic);
+            
+            // Optional: Auto-play after user interaction (more respectful)
+            // Uncomment the next line if you want music to start after first click anywhere
+            // document.addEventListener('click', () => { if (!isPlaying) toggleMusic(); }, { once: true });
+        });
+    </script>
 </body>
 
 </html>
