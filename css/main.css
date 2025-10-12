@@ -708,10 +708,12 @@ html.loaded .home-content__main {
 .job a {
     position: relative;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .job p {
-    margin-bottom: 1.4rem;
+    margin-bottom: 5rem;
+    font-size: 15px;
 }
 
 .job a::after {
