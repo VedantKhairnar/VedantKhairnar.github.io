@@ -105,18 +105,32 @@
     
     <!-- Optional: Add a music control button -->
     <button id="music-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; 
-                                     background: rgba(0,0,0,0.7); color: white; border: none; 
-                                     padding: 10px; border-radius: 50%; cursor: pointer; display: none;"
+                                     background: rgba(0,0,0,0.7); color: white; 
+                                     border: 2px solid rgba(255,255,255,0.8); 
+                                     padding: 10px; border-radius: 50%; cursor: pointer; display: none;
+                                     box-shadow: 0 2px 8px rgba(0,0,0,0.3);"
             title="Toggle Background Music">
         🎵
     </button>
 
     <!-- Hand Gesture Control Toggle -->
     <button id="gesture-toggle" style="position: fixed; top: 70px; right: 20px; z-index: 1000; 
-                                      background: rgba(0,0,0,0.7); color: white; border: none; 
-                                      padding: 10px; border-radius: 50%; cursor: pointer;"
+                                      background: rgba(0,0,0,0.7); color: white; 
+                                      border: 2px solid rgba(255,255,255,0.8); 
+                                      padding: 10px; border-radius: 50%; cursor: pointer;
+                                      box-shadow: 0 2px 8px rgba(0,0,0,0.3);"
             title="Toggle Hand Gesture Control">
         🤚
+    </button>
+
+    <!-- Animation Cycle Toggle -->
+    <button id="animation-toggle" style="position: fixed; top: 120px; right: 20px; z-index: 1000; 
+                                        background: rgba(0,0,0,0.7); color: white; 
+                                        border: 2px solid rgba(255,255,255,0.8); 
+                                        padding: 10px; border-radius: 50%; cursor: pointer;
+                                        box-shadow: 0 2px 8px rgba(0,0,0,0.3);"
+            title="Cycle Entry Animation">
+        🎬
     </button>
 
     <!-- Camera video element (hidden) -->
@@ -1360,6 +1374,7 @@
             const audio = document.getElementById('background-music');
             const toggleButton = document.getElementById('music-toggle');
             const gestureToggle = document.getElementById('gesture-toggle');
+            const animationToggle = document.getElementById('animation-toggle');
             const gestureStatus = document.getElementById('gesture-status');
             let isPlaying = false;
             let gestureActive = false;
@@ -1422,6 +1437,39 @@
                     if (window.toggleGestureMode) {
                         window.toggleGestureMode(false);
                     }
+                }
+            });
+            
+            // Animation cycle toggle
+            animationToggle.addEventListener('click', function() {
+                if (window.cycleAnimation) {
+                    const newAnimation = window.cycleAnimation();
+                    
+                    // Visual feedback
+                    animationToggle.style.background = 'rgba(76, 175, 80, 0.9)';
+                    animationToggle.style.transform = 'rotate(360deg)';
+                    animationToggle.style.transition = 'transform 0.5s, background 0.3s';
+                    
+                    // Show animation name briefly
+                    const animationNames = {
+                        'convergence': '🎆 Convergence',
+                        'spiral-center': '🌪️ Spiral Center',
+                        'spiral': '🌀 Spiral Galaxy',
+                        'rain': '🌧️ Rain',
+                        'wave': '🌊 Wave',
+                        'ripple': '💫 Ripple',
+                        'zoom': '🔭 Zoom'
+                    };
+                    
+                    animationToggle.title = `Current: ${animationNames[newAnimation]}`;
+                    
+                    // Reset style after animation
+                    setTimeout(function() {
+                        animationToggle.style.background = 'rgba(0,0,0,0.7)';
+                        animationToggle.style.transform = 'rotate(0deg)';
+                    }, 500);
+                    
+                    console.log('Switched to:', newAnimation);
                 }
             });
             
