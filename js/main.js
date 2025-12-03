@@ -25,6 +25,9 @@
         var windowHalfY = window.innerHeight / 2;
         var mouseX = -windowHalfX,
             mouseY = -windowHalfY;
+        var gestureMode = false;
+        var gestureMultiplier = 1.0;
+        var waveSpeed = 0.05;
         
         function init() {
             camera = new THREE.PerspectiveCamera(65, window.innerWidth / window.innerHeight, 1, 1E5);
@@ -57,9 +60,46 @@
             
             $('#wave').prepend(renderer.domElement);
             $(document).on('mousemove', function (event) {
-                mouseX = event.clientX * 0.5 - windowHalfX;
-                // mouseY = event.clientY * 0.3 - windowHalfY;
+                if (!gestureMode) {
+                    mouseX = event.clientX * 0.5 - windowHalfX;
+                    // mouseY = event.clientY * 0.3 - windowHalfY;
+                }
             }).trigger('mousemouve');
+            
+            // Listen for hand gesture events
+            window.addEventListener('handGesture', function(event) {
+                if (gestureMode && window.GestureControl && window.GestureControl.isActive) {
+                    const handData = event.detail;
+                    
+                    // Map hand position to screen coordinates
+                    mouseX = handData.x * windowHalfX;
+                    mouseY = handData.y * windowHalfY;
+                    
+                    // Adjust animation based on gesture
+                    switch(handData.gesture) {
+                        case 'Open Palm':
+                            gestureMultiplier = 1.5;
+                            waveSpeed = 0.08;
+                            break;
+                        case 'Fist':
+                            gestureMultiplier = 0.5;
+                            waveSpeed = 0.02;
+                            break;
+                        case 'Pinch':
+                            gestureMultiplier = 2.0;
+                            waveSpeed = 0.12;
+                            break;
+                        case 'Peace Sign':
+                            gestureMultiplier = 1.2;
+                            waveSpeed = 0.06;
+                            break;
+                        default:
+                            gestureMultiplier = 1.0;
+                            waveSpeed = 0.05;
+                    }
+                }
+            });
+            
             $(window).on('resize', function () {
                 windowHalfX = window.innerWidth / 2;
                 windowHalfY = window.innerHeight / 2;
@@ -80,14 +120,21 @@
             for (var ix = 0; ix < AMOUNTX; ix++) {
                 for (var iy = 0; iy < AMOUNTY; iy++) {
                     particle = particles[i++];
-                    particle.position.y = (Math.sin((ix + count) * 0.25) * 50) + (Math.sin((iy + count) * 0.5) * 50);
-                    particle.scale.x = particle.scale.y = (Math.sin((ix + count) * 0.25) + 1) * 4 + (Math.sin((iy + count) * 0.5) + 1) * 4;
+                    particle.position.y = (Math.sin((ix + count) * 0.25) * 50 * gestureMultiplier) + 
+                                         (Math.sin((iy + count) * 0.5) * 50 * gestureMultiplier);
+                    particle.scale.x = particle.scale.y = (Math.sin((ix + count) * 0.25) + 1) * 4 * gestureMultiplier + 
+                                                          (Math.sin((iy + count) * 0.5) + 1) * 4 * gestureMultiplier;
                 }
             }
             renderer.render(scene, camera);
-            count += 0.05;
+            count += waveSpeed;
             requestAnimationFrame(render);
         }
+        
+        // Expose gesture toggle function
+        window.toggleGestureMode = function(active) {
+            gestureMode = active;
+        };
         
         return init();
     }
