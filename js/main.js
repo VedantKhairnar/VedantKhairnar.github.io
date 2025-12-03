@@ -29,7 +29,16 @@
         var gestureMultiplier = 1.0;
         var waveSpeed = 0.05;
         
+        // Entry animation variables
+        var entryAnimationProgress = 0;
+        var entryAnimationDuration = 240; // frames (~4 seconds at 60fps)
+        var entryAnimationComplete = false;
+        var entryAnimationStarted = false;
+        var particleStartPositions = [];
+        var startTime = Date.now();
+        
         function init() {
+            console.log('Entry animation initializing...');
             camera = new THREE.PerspectiveCamera(65, window.innerWidth / window.innerHeight, 1, 1E5);
             camera.position.z = 1000;
             
@@ -41,7 +50,7 @@
                 color: 0xEEEEEE,
                 program: function (context) {
                     context.beginPath();
-                    context.arc(0, 0, 0.25, 0, PI2, true);
+                    context.arc(0, 0, 0.75, 0, PI2, true);
                     context.fill();
                 }
             });
@@ -49,8 +58,27 @@
             for (var ix = 0; ix < AMOUNTX; ix++) {
                 for (var iy = 0; iy < AMOUNTY; iy++) {
                     particle = particles[i++] = new THREE.Sprite(material);
-                    particle.position.x = ix * SEPARATION - ((AMOUNTX * SEPARATION) / 2);
-                    particle.position.z = iy * SEPARATION - ((AMOUNTY * SEPARATION) / 2);
+                    
+                    // Store final position
+                    var finalX = ix * SEPARATION - ((AMOUNTX * SEPARATION) / 2);
+                    var finalZ = iy * SEPARATION - ((AMOUNTY * SEPARATION) / 2);
+                    
+                    // Start all particles at center for convergence effect
+                    particle.position.x = 0;
+                    particle.position.y = 0;
+                    particle.position.z = 0;
+                    
+                    // Store final positions for animation
+                    particleStartPositions.push({
+                        finalX: finalX,
+                        finalZ: finalZ,
+                        delay: (ix + iy) * 1.2 // Staggered delay in frames
+                    });
+                    
+                    // Start with very small scale (will animate to full size)
+                    particle.scale.x = 0.01;
+                    particle.scale.y = 0.01;
+                    
                     scene.add(particle);
                 }
             }
@@ -107,6 +135,15 @@
                 camera.updateProjectionMatrix();
                 renderer.setSize(window.innerWidth, window.innerHeight);
             });
+            
+            // Start animation after page load
+            $(window).on('load', function() {
+                setTimeout(function() {
+                    entryAnimationStarted = true;
+                    console.log('Entry animation starting now!');
+                }, 500); // Start 500ms after page load
+            });
+            
             render();
         }
         
@@ -117,13 +154,62 @@
             camera.lookAt(scene.position);
             
             var i = 0;
+            
+            // Handle entry animation
+            if (!entryAnimationComplete && entryAnimationStarted) {
+                entryAnimationProgress++;
+                
+                if (entryAnimationProgress >= entryAnimationDuration) {
+                    entryAnimationComplete = true;
+                    console.log('Entry animation complete!');
+                }
+            }
+            
             for (var ix = 0; ix < AMOUNTX; ix++) {
                 for (var iy = 0; iy < AMOUNTY; iy++) {
-                    particle = particles[i++];
-                    particle.position.y = (Math.sin((ix + count) * 0.25) * 50 * gestureMultiplier) + 
-                                         (Math.sin((iy + count) * 0.5) * 50 * gestureMultiplier);
-                    particle.scale.x = particle.scale.y = (Math.sin((ix + count) * 0.25) + 1) * 4 * gestureMultiplier + 
-                                                          (Math.sin((iy + count) * 0.5) + 1) * 4 * gestureMultiplier;
+                    particle = particles[i];
+                    var particleData = particleStartPositions[i];
+                    i++;
+                    
+                    if (!entryAnimationComplete && entryAnimationStarted) {
+                        // Calculate progress for this specific particle
+                        var particleProgress = Math.max(0, entryAnimationProgress - particleData.delay);
+                        var normalizedProgress = Math.min(1, particleProgress / (entryAnimationDuration - particleData.delay));
+                        
+                        // Easing function (ease-out-cubic)
+                        var eased = 1 - Math.pow(1 - normalizedProgress, 3);
+                        
+                        // Animate position from center to final position
+                        particle.position.x = particleData.finalX * eased;
+                        particle.position.z = particleData.finalZ * eased;
+                        
+                        // Gradually increase wave amplitude from 20 to 50
+                        var waveAmplitude = 20 + (30 * eased);
+                        particle.position.y = (Math.sin((ix + count) * 0.25) * waveAmplitude * eased) + 
+                                             (Math.sin((iy + count) * 0.5) * waveAmplitude * eased);
+                        
+                        // Animate scale to match the final wave scale
+                        var scaleEased = 1 - Math.pow(1 - normalizedProgress, 2);
+                        var targetScale = (Math.sin((ix + count) * 0.25) + 1) * 2.2 + 
+                                         (Math.sin((iy + count) * 0.5) + 1) * 2.2;
+                        // Start from a small but visible scale
+                        particle.scale.x = particle.scale.y = Math.max(0.5, targetScale * scaleEased);
+                    } else if (!entryAnimationStarted) {
+                        // Before animation starts, keep particles hidden at center
+                        particle.position.x = 0;
+                        particle.position.y = 0;
+                        particle.position.z = 0;
+                        particle.scale.x = 0.01;
+                        particle.scale.y = 0.01;
+                    } else {
+                        // Normal wave animation after entry is complete
+                        particle.position.x = particleData.finalX;
+                        particle.position.z = particleData.finalZ;
+                        particle.position.y = (Math.sin((ix + count) * 0.25) * 50 * gestureMultiplier) + 
+                                             (Math.sin((iy + count) * 0.5) * 50 * gestureMultiplier);
+                        particle.scale.x = particle.scale.y = (Math.sin((ix + count) * 0.25) + 1) * 2.2 * gestureMultiplier + 
+                                                              (Math.sin((iy + count) * 0.5) + 1) * 2.2 * gestureMultiplier;
+                    }
                 }
             }
             renderer.render(scene, camera);
