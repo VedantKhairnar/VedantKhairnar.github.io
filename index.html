@@ -175,7 +175,11 @@
                         <p class="lead">
                             Data is flowing like a river !!!
                         </p>
-                        <p class="lead">
+                        <p class="lead" style="color: #00ff00; cursor: pointer; text-shadow: 0 0 10px rgba(0,255,0,0.5); transition: all 0.3s;" 
+                           onclick="window.Terminal && window.Terminal.open()" 
+                           onmouseover="this.style.textShadow='0 0 20px rgba(0,255,0,0.8)'" 
+                           onmouseout="this.style.textShadow='0 0 10px rgba(0,255,0,0.5)'"
+                           title="Click to open terminal!">
                             >> I live in my terminal!!
                         </p>
                         <p class="lead">
@@ -267,7 +271,11 @@
                         <p class="lead">
                             Privacy is just an Illusion!!!
                         </p>
-                        <p class="lead">
+                        <p class="lead" style="color: #00ff00; cursor: pointer; text-shadow: 0 0 10px rgba(0,255,0,0.5); transition: all 0.3s;" 
+                           onclick="window.Terminal && window.Terminal.open()" 
+                           onmouseover="this.style.textShadow='0 0 20px rgba(0,255,0,0.8)'" 
+                           onmouseout="this.style.textShadow='0 0 10px rgba(0,255,0,0.5)'"
+                           title="Click to open terminal!">
                             >> I live in my terminal!!
                         </p>
                         <p class="lead">
@@ -1478,6 +1486,12 @@
             // document.addEventListener('click', () => { if (!isPlaying) toggleMusic(); }, { once: true });
         });
     </script>
+    
+    <!-- Scroll Particles System -->
+    <script src="js/scroll-particles.js"></script>
+    
+    <!-- Terminal Easter Egg -->
+    <script src="js/terminal.js"></script>
 </body>
 
 </html>
